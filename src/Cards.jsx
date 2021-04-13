@@ -209,7 +209,7 @@ class Cards extends Component {
             style={{
               ...STYLES.CARD,
               opacity: getOpacity(position),
-              zIndex: getZIndex(position),
+              zIndex: 2,
               transform: getTransform(position, alignment, spread),
               boxShadow: getBoxShadow(position, alignment, disable_box_shadow),
               cursor: getCursor(position, alignment),
